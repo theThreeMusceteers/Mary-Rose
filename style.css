@@ -21,13 +21,17 @@ body {
   font-family: 'Raleway', sans-serif;
   color:white;
   font-size:small;
+  margin:5%;
+}
+body img{
+  padding:5%;
 }
 
 .profile-picture {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1%;
+    
 }
 
 .nav {
@@ -112,9 +116,11 @@ footer {
   border-color:black;
 }
 
+
 .wrapper {
   display: flex;
   align-items:center;
+  justify-content: space-around;
 
 }
 
