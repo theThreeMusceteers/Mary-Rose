@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body {
-  background-repeat: no-repeat;
+  
   background-attachment: fixed;
-  background: url(https://i.pinimg.com/736x/c1/d6/57/c1d6578f92b03c3f8c67886a762a9a7e.jpg);
+  background-image:url(/images/background-grey.jpeg);
   background-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  color:white;
 }
 
 .profile-picture {
@@ -15,7 +18,7 @@ body {
 
 .nav {
   overflow: hidden;
-  background-color: rgb(241, 210, 83);
+  background-color: rgb(31, 115, 111);
   position: relative;
 }
 
@@ -58,6 +61,8 @@ body {
 .name {
   display: flex;
   margin-left: 15%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20em;
 }
 .intro {
   color: white;
