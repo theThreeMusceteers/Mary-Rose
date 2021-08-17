@@ -8,6 +8,7 @@ body {
   background-size: 100%;
   font-family: 'Raleway', sans-serif;
   color:white;
+  font-size:small;
 }
 
 .profile-picture {
@@ -75,7 +76,7 @@ padding-top:1em;
 padding-bottom:1em;
 justify-content:center;
 align-items:center;
-font-size:small;
+
   
 }
 footer {
@@ -87,11 +88,15 @@ footer {
 }
 .top-first a{
   text-decoration: none;
+  color:white;
 }
 .top-first{
   padding:1em;
+  
 }
 .top-first button{
-  
-  
+  background-color: rgb(31, 115, 111);
+  border-radius:40%;
+  border-color:black;
 }
+
