@@ -16,7 +16,7 @@
 body {
   
   background-attachment: fixed;
-  background-image:url("images/background-grey.jpeg");
+  background-image:url(/images/background-grey.jpeg);
   background-size: 100%;
   font-family: 'Raleway', sans-serif;
   color:white;
@@ -114,7 +114,6 @@ footer {
   background-color: rgb(31, 115, 111);
   border-radius:40%;
   border-color:black;
-  
 }
 
 
@@ -162,7 +161,7 @@ footer {
   content: "";
   height: 8px;
   width: 8px;
-  background-color: #e6d119;
+  background-color: #ffffff;
   bottom: -3px;
   left: 50%;
   transform: translate(-50%) rotate(45deg);
@@ -188,30 +187,30 @@ footer {
   color: #ffffff;
 }
 
-.wrapper .linkedin:hover,
-.wrapper .linkedin:hover .tooltip,
-.wrapper .linkedin:hover .tooltip::before {
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
   background-color: #46c1f6;
-  color: #331781;
+  color: #ffffff;
 }
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
   background-color: #e1306c;
-  color: #1729cf;
+  color: #ffffff;
 }
 
-.wrapper .gmail:hover,
-.wrapper .gmail:hover .tooltip,
-.wrapper .gmail:hover .tooltip::before {
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
   background-color: #333333;
-  color: #771212;
+  color: #ffffff;
 }
 
-.wrapper .spotify:hover,
-.wrapper .spofify:hover .tooltip,
-.wrapper .spofify:hover.tooltip::before {
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
   background-color: #de463b;
-  color: #2f9b2b;
+  color: #ffffff;
 }
