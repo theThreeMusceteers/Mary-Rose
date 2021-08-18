@@ -90,7 +90,8 @@ padding-bottom:1em;
 justify-content:center;
 align-items:center;
 
-  
+
+  /* our footer */
 }
 /* Footer button */
 footer {
@@ -200,6 +201,10 @@ footer {
   background-color: #de463b;
   color: #ffffff;
 }
+
+/* our footer */
+
+/* about me button */
 :root {
   --bg: #1a1e24;
   --color: #eee;
