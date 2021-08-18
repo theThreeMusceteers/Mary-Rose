@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
@@ -13,25 +13,24 @@
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
 }
+
 body {
-  
   background-attachment: fixed;
-  background-image:url(/images/background-grey.jpeg);
+  background-image: url(/images/background-grey.jpeg);
   background-size: 100%;
-  font-family: 'Raleway', sans-serif;
-  color:white;
-  font-size:small;
-  margin:5%;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: small;
+  margin: 5%;
 }
-body img{
-  padding:5%;
+body img {
+  padding: 5%;
 }
 
 .profile-picture {
   display: flex;
   align-items: center;
   justify-content: center;
-    
 }
 
 .nav {
@@ -53,21 +52,19 @@ body img{
 }
 
 .nav a.icon {
-  
   display: block;
   position: absolute;
   left: 0;
   top: 0;
 }
-.bar{
+.bar {
   width: 20px;
   height: 4px;
   background-color: black;
-  margin: 3px ;
+  margin: 3px;
 }
 
 .nav a:hover {
-  
   color: rgb(201, 19, 19);
 }
 
@@ -80,16 +77,13 @@ body img{
 .name {
   display: flex;
   margin-left: 15%;
-  font-family: 'Dancing Script', cursive;
-  
+  font-family: "Dancing Script", cursive;
 }
 .intro {
-  
-padding-top:1em;
-padding-bottom:1em;
-justify-content:center;
-align-items:center;
-
+  padding-top: 1em;
+  padding-bottom: 1em;
+  justify-content: center;
+  align-items: center;
 
   /* our footer */
 }
@@ -101,13 +95,10 @@ footer {
   justify-content: space-around;
 }
 
-
-
 .wrapper {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-around;
-
 }
 
 .wrapper .icon {
@@ -212,7 +203,7 @@ footer {
 
 .top-first {
   padding: 1.5rem 0;
-  filter: url('#goo');
+  filter: url("#goo");
 }
 
 .button-top {
@@ -227,9 +218,8 @@ footer {
   position: relative;
   min-width: 8.23em;
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.25rem;
-  
 }
 
 .button-top:before,
@@ -261,7 +251,6 @@ footer {
   transform: none;
 }
 
-
 /* Demo styles */
 
 .about-me {
@@ -271,6 +260,4 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
 }
