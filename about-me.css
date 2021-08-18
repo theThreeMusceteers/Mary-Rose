@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
 body{
     display: flex;
     background: wheat;
     text-align: center;
     flex-direction: column;
+    margin: 3%;
+    font-family: 'Raleway', sans-serif;
     
 }
 .skills{
@@ -15,12 +25,13 @@ body{
   /* our footer */
 
 footer {
-    text-align: center;
-  display: flex;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  text-decoration: none;
-  justify-content: space-around;
+text-align: center;
+display: flex;
+margin-top: 5%;
+margin-bottom: 5%;
+text-decoration: none;
+justify-content: space-around;
+
 }
 
 
@@ -124,3 +135,39 @@ footer {
 }
 
 /* our footer */
+hr{
+    margin: 3%;
+
+}
+h3{
+    padding: 10px;
+}
+.text{
+    text-align: justify;
+    box-sizing: content-box;
+    margin: 0 20% 0 20%;
+}
+.team-work{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.certification{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (min-width: 400px){
+    .middle{
+        display: flex;
+        justify-content: space-around;
+    }
+    footer{
+    position:absolute;
+   bottom:0;
+   width:100%;
+    }
+    
+}
