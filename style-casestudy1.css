@@ -92,10 +92,19 @@ justify-content:center;
 align-items:center;
 flex-direction:column;
 }
+.intro-side {
+  display:flex;
+padding-top:1em;
+padding-bottom:1em;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+
 .intro h1{
     color:aqua;
 }
-.intro p{
+.intro-side p{
     padding:1em;
 }
 /* Research */
@@ -228,4 +237,16 @@ footer {
     --bg: #1a1e24;
     --color: #eee;
     --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  @media (min-width: 400px){
+.intro-side{
+  display:flex;
+  flex-direction:row-reverse;
+}
+.research{
+  display: flex;
+  flex-direction: row;
+}
+
   }
