@@ -21,13 +21,17 @@ body {
   font-family: 'Raleway', sans-serif;
   color:white;
   font-size:small;
+  margin:5%;
+}
+body img{
+  padding:5%;
 }
 
 .profile-picture {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1%;
+    
 }
 
 .nav {
@@ -113,9 +117,11 @@ footer {
   
 }
 
+
 .wrapper {
   display: flex;
   align-items:center;
+  justify-content: space-around;
 
 }
 
@@ -156,7 +162,7 @@ footer {
   content: "";
   height: 8px;
   width: 8px;
-  background-color: #ffffff;
+  background-color: #e6d119;
   bottom: -3px;
   left: 50%;
   transform: translate(-50%) rotate(45deg);
@@ -186,26 +192,26 @@ footer {
 .wrapper .linkedin:hover .tooltip,
 .wrapper .linkedin:hover .tooltip::before {
   background-color: #46c1f6;
-  color: #ffffff;
+  color: #331781;
 }
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
   background-color: #e1306c;
-  color: #ffffff;
+  color: #1729cf;
 }
 
 .wrapper .gmail:hover,
 .wrapper .gmail:hover .tooltip,
 .wrapper .gmail:hover .tooltip::before {
   background-color: #333333;
-  color: #ffffff;
+  color: #771212;
 }
 
 .wrapper .spotify:hover,
 .wrapper .spofify:hover .tooltip,
 .wrapper .spofify:hover.tooltip::before {
   background-color: #de463b;
-  color: #ffffff;
+  color: #2f9b2b;
 }
