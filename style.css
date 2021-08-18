@@ -76,84 +76,6 @@ body img{
   color: white;
   opacity: 0.2;
 }
-.top-first{
-  display:flex;
-  justify-content:center;
-  
-}
-/* about me */
-:root {
-  --bg: #1a1e24;
-  --color: #eee;
-  --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
-}
-
-.top-first {
-  padding: 1.5rem 0;
-  filter: url('#goo'); 
-}
-
-.button-top {
-  display: inline-block;
-  text-align: center;
-  background: var(--color);
-  color: var(--bg);
-  font-weight: bold;
-  padding: 1.18em 1.32em 1.03em;
-  line-height: 1;
-  border-radius: 1em;
-  position: relative;
-  min-width: 8.23em;
-  text-decoration: none;
-  font-family: var(--font);
-  font-size: 1.25rem;
-  
-}
-
-.button-top:before,
-.button-top:after {
-  width: 4.4em;
-  height: 2.95em;
-  position: absolute;
-  content: "";
-  display: inline-block;
-  background: var(--color);
-  border-radius: 50%;
-  transition: transform 1s ease;
-  transform: scale(0);
-  z-index: -1;
-}
-
-.button-top:before {
-  top: -25%;
-  left: 20%;
-}
-
-.button-top:after {
-  bottom: -25%;
-  right: 20%;
-}
-
-.button-top:hover:before,
-.button-top:hover:after {
-  transform: none;
-}
-
-
-/* Demo styles */
-
-.about-me {
-  width: 100%;
-  height: 100%;
-  min-height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  
-}
-/* about me */
-
 
 .name {
   display: flex;
@@ -168,7 +90,8 @@ padding-bottom:1em;
 justify-content:center;
 align-items:center;
 
-  
+
+  /* our footer */
 }
 footer {
   display: flex;
@@ -177,19 +100,7 @@ footer {
   text-decoration: none;
   justify-content: space-around;
 }
-.top-first a{
-  text-decoration: none;
-  color:white;
-}
-.top-first{
-  padding:1em;
-  
-}
-.top-first button{
-  background-color: rgb(31, 115, 111);
-  border-radius:40%;
-  border-color:black;
-}
+
 
 
 .wrapper {
@@ -290,3 +201,76 @@ footer {
   color: #ffffff;
 }
 
+/* our footer */
+
+/* about me button */
+:root {
+  --bg: #1a1e24;
+  --color: #eee;
+  --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.top-first {
+  padding: 1.5rem 0;
+  filter: url('#goo');
+}
+
+.button-top {
+  display: inline-block;
+  text-align: center;
+  background: var(--color);
+  color: var(--bg);
+  font-weight: bold;
+  padding: 1.18em 1.32em 1.03em;
+  line-height: 1;
+  border-radius: 1em;
+  position: relative;
+  min-width: 8.23em;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  
+}
+
+.button-top:before,
+.button-top:after {
+  width: 4.4em;
+  height: 2.95em;
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: var(--color);
+  border-radius: 50%;
+  transition: transform 1s ease;
+  transform: scale(0);
+  z-index: -1;
+}
+
+.button-top:before {
+  top: -25%;
+  left: 20%;
+}
+
+.button-top:after {
+  bottom: -25%;
+  right: 20%;
+}
+
+.button-top:hover:before,
+.button-top:hover:after {
+  transform: none;
+}
+
+
+/* Demo styles */
+
+.about-me {
+  width: 100%;
+  height: 100%;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
