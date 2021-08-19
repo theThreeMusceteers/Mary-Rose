@@ -7,9 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="/about-me.css">
+    <link rel="stylesheet" href="/menu.css">
 </head>
 
 <body>
+
+
+<!-- Nav bar -->
+<div class="menu-wrap">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/case-study.html">Case Study1</a></li>
+            <li><a href="#">Case Study2</a></li>
+            <li><a href="#">Case Study3</a></li>
+            <li><a href="/about-me.html">About Me</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- End of Menu Button -->
+
+<!-- Skills -->
     <h2>My Skills</h2>
 
     <div class="skills">
@@ -59,6 +85,8 @@
         </div>
     </div>
 
+    <!-- End of Skills -->
+
 
 </body>
 
@@ -66,28 +94,37 @@
 
 <footer class="wrapper">
     <div class="icon facebook">
-        <div class="tooltip">Facebook</div>
-        <span><img src="/logos/facebook.jpeg" height=35em width=35em></span>
+      <div class="tooltip">Facebook</div>
+      <a href="https://www.facebook.com/"><img src="/logos/facebook.jpeg" height=35em width=35em></a>
     </div>
     <div class="icon twitter">
-        <div class="tooltip">Twitter</div>
-        <span><img src="/logos/black-and-white-twitter-logo-transparent_100736.png" height=35em width=35em></span>
+      <div class="tooltip">Twitter</div>
+      <a href="https://twitter.com/"><img src="/logos/black-and-white-twitter-logo-transparent_100736.png" height=35em width=35em></a>
     </div>
     <div class="icon instagram">
-        <div class="tooltip">Instagram</div>
-
-        <span><img src="/logos/instagram-logo-black-transparent.png" height=35em width=40em></span>
+      <div class="tooltip">Instagram</div>
+      
+      <a href="https://www.instagram.com/"><img src="/logos/instagram-logo-black-transparent.png" height=35em width=40em></a>
     </div>
     <div class="icon github">
-        <div class="tooltip">Github</div>
-
-        <span><img src="logos/github.png" height=34em width=34em></span>
+      <div class="tooltip">Github</div>
+      <a href="https://github.com"><img src="logos/github.png" height=34em width=34em></a>
     </div>
     <div class="icon youtube">
-        <div class="tooltip">Mail</div>
-
-        <span><img src="/logos/gmail-logo.png" height=34em width=34em></span>
+      <div class="tooltip">Mail</div>
+      <a href="https://www.youtube.com"><img src="/logos/gmail-logo.png" height=34em width=34em></a>
     </div>
-</footer>
+  </footer>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 
 </html>

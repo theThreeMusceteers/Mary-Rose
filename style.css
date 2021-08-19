@@ -3,6 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+:root{
+  --primary-color:rgba(13,110,139,0.75);
+  --overlay-color:rgba(24,39,51,0.85);
+  --menu-speed:0.75s;
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +17,8 @@
 *:active {
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
+
+  
 }
 body {
   font-size: small;
@@ -19,54 +26,7 @@ body {
 body img {
   padding: 5%;
 }
-.profile-picture {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav {
-  overflow: hidden;
-  background-color: #027091;
-  position: relative;
-}
-.nav #myLinks {
-  display: none;
-}
-.nav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-.nav a.icon {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.bar {
-  width: 50px;
-  height: 2px;
-  background-color: white;
-  margin: 3px;
-}
-.nav a:hover {
-  color: rgb(201, 19, 19);
-}
-.active {
-  background-color: #d8963f;
-  color: white;
-  opacity: 0.2;
-}
-.name {
-  display: flex;
-  margin-left: 15%;
-  font-family: ‘Raleway’, sans-serif;
-}
-#myLinks a {
-  font-family: ‘Raleway’, sans-serif;
-}
+
 /* First page */
 .intro {
   background-image: url(/images/mobile-background.png);
@@ -270,4 +230,7 @@ footer {
     width: 20%;
     height: 20%;
   }
-}
+
+}@media (min-width: 400px){
+
+  

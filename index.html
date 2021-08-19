@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>repl.it</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/menu.css">
 </head>
 
 <body>
@@ -13,21 +14,23 @@
 
   
 <!-- Nav bar -->
-    <div class="nav">
-      <a href="#home" class="name">Home</a>
-      <div id="myLinks">
-        <a href="#case1">Case Study 1</a>
-        <a href="#case2">Case Study 2</a>
-        <a href="#case3">Case Study 3</a>
-        <a href="about-me">About Me</a>
+<div class="menu-wrap">
+  <input type="checkbox" class="toggler">
+  <div class="hamburger"><div></div></div>
+  <div class="menu">
+    <div>
+      <div>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/case-study.html">Case Study1</a></li>
+          <li><a href="#">Case Study2</a></li>
+          <li><a href="#">Case Study3</a></li>
+          <li><a href="/about-me.html">About Me</a></li>
+        </ul>
       </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-
-      </a>
     </div>
+  </div>
+</div>
   
   
 <!-- First Page -->
@@ -79,26 +82,24 @@
 <footer class="wrapper">
   <div class="icon facebook">
     <div class="tooltip">Facebook</div>
-    <span><img src="/logos/facebook.jpeg" height=35em width=35em></span>
+    <a href="https://www.facebook.com/"><img src="/logos/facebook.jpeg" height=35em width=35em></a>
   </div>
   <div class="icon twitter">
     <div class="tooltip">Twitter</div>
-    <span><img src="/logos/black-and-white-twitter-logo-transparent_100736.png" height=35em width=35em></span>
+    <a href="https://twitter.com/"><img src="/logos/black-and-white-twitter-logo-transparent_100736.png" height=35em width=35em></a>
   </div>
   <div class="icon instagram">
     <div class="tooltip">Instagram</div>
     
-    <span><img src="/logos/instagram-logo-black-transparent.png" height=35em width=40em></span>
+    <a href="https://www.instagram.com/"><img src="/logos/instagram-logo-black-transparent.png" height=35em width=40em></a>
   </div>
   <div class="icon github">
     <div class="tooltip">Github</div>
-    
-    <span><img src="logos/github.png" height=34em width=34em></span>
+    <a href="https://github.com"><img src="logos/github.png" height=34em width=34em></a>
   </div>
   <div class="icon youtube">
     <div class="tooltip">Mail</div>
-   
-    <span><img src="/logos/gmail-logo.png" height=34em width=34em></span>
+    <a href="https://www.youtube.com"><img src="/logos/gmail-logo.png" height=34em width=34em></a>
   </div>
 </footer>
 
