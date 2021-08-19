@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -13,16 +15,24 @@
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
 }
-
 body {
   font-size:small;
+  
 }
-body img {
-  padding: 5%;
+body img{
+  padding:5%;
+  margin-top: 12%;
 }
 
-/* navigation start*/
 
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+/* hamburger button start */
 
 body {
   margin: 0;
@@ -41,8 +51,6 @@ a {
   position: fixed;
   width: 100%;
   z-index: 3;
-  background-color: #027091;
-  justify-content: space-around;
 }
 
 .header ul {
@@ -56,13 +64,15 @@ a {
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
+  border-right: 1px solid #027091;
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #744747;
+  background-color: #027091;
 }
 
 .header .logo {
@@ -71,6 +81,7 @@ a {
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
+  font-family: 'Poiret One', cursive;;
 }
 
 /* menu */
@@ -86,7 +97,7 @@ a {
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: left;
+  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
@@ -97,13 +108,13 @@ a {
   display: block;
   height: 2px;
   position: relative;
-  transition: all .2s ease-out;
+  transition: background .2s ease-out;
   width: 18px;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #027091;
   content: '';
   display: block;
   height: 100%;
@@ -169,24 +180,20 @@ a {
 header:not(.header){
   background:blue;
 }
-/* navigation end */
 
 
-.profile-picture {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.
+
+/* hamburger button end */
 
 .name {
   display: flex;
   margin-left: 15%;
-  font-family: "Dancing Script", cursive;
-}
-.intro {
+  font-family: 'Poiret One', cursive;
   
+}
+.right p{
+  display:flex;
 padding-top:1em;
 padding-bottom:1em;
 justify-content:center;
@@ -199,6 +206,11 @@ align-items:center;
   background-color:#FFE9D4;
   margin: 0;
   background-size: 100%;
+  
+}
+.intro-background h2{
+  display: flex;
+  justify-content: center;
 }
 /* About me button */
 .about-me button{
@@ -226,10 +238,13 @@ footer {
   justify-content: space-around;
 }
 
+
+
 .wrapper {
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: space-around;
+
 }
 
 .wrapper .icon {
@@ -325,6 +340,34 @@ footer {
 
 /* Footer end  */
 @media (min-width: 400px){
-  
+.intro-background{
+  display:flex;
+ flex-direction: row;
+ justify-content: center;
+ padding: 20em;
+ align-items: center;
+
 }
 
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.right p{
+  display: flex;
+  justify-content: center;
+}
+.intro-background img{
+  height: 40em;
+  width: 40em;
+  padding:20px;
+}
+}
+
+@media(max-width:400px){
+  .about-me{
+    display:none;
+  }
+}
