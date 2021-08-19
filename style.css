@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url(‘https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap’);
 * {
   margin: 0;
   padding: 0;
@@ -75,48 +76,36 @@ body img{
 .name {
   display: flex;
   margin-left: 15%;
-  font-family: 'Poiret One', cursive;
+  font-family: ‘Raleway’, sans-serif;
   
 }
-.right p{
-  display:flex;
-padding-top:1em;
-padding-bottom:1em;
-justify-content:center;
-align-items:center;
-
+#myLinks a{
+  font-family: ‘Raleway’, sans-serif;
 }
+
+/* First page */
+.intro{
+  background-image: url(/images/mobile-background.png);
+  background-size:cover;
  
-
-.intro-background{
-  background-color:#FFE9D4;
-  margin: 0;
-  background-size: 100%;
-  
+  background-attachment: absolute;
 }
-.intro-background h2{
+.text-logo{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
-/* About me button */
-.about-me button{
-  background-color:#DE7207 ;
-  border-radius: 30px 0 30px 0;
-           
-  width:130px;
-  height:50px;
+.text {
+  font-family: 'Dancing Script';
+  padding-top:15%;
+  margin:8%;
 }
-.about-me{
-  display: flex;
-  justify-content: center;
-  padding-top:1em;
-  
+.logo{
+  margin-top: -1;
 }
-/* About me button end  */
-
+/* End of first page */
 /* Footer button */
 footer {
-  background-color:#07ABDE ;
+  background-color:#0077AB ;
   display: flex;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -226,33 +215,30 @@ footer {
 
 /* Footer end  */
 @media (min-width: 400px){
-.intro-background{
-  display:flex;
- flex-direction: row;
- justify-content: center;
- padding: 20em;
- align-items: center;
-
-}
-
-.right{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.right p{
-  display: flex;
-  justify-content: center;
-}
-.intro-background img{
-  height: 15em;
-  width: 15em;
-}
-}
-
-@media(max-width:400px){
-  .about-me{
-    display:none;
+  .intro{
+    background-image: url(/images/background-desktop.png);
+    background-size:cover;
+    height: auto;
+    width: auto;
+ 
+ 
+   
+  }
+  .text-logo{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .text {
+    font-family: 'Dancing Script';
+    padding-top:0;
+    margin:10%;
+    font-size: 2em;
+  }
+  .logo img{
+    height:10%;
+    
   }
 }
+
+
 
