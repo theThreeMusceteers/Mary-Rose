@@ -1,29 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
 
+:root{
+  --primary-color:rgba(13,110,139,0.75);
+  --overlay-color:rgba(24,39,51,0.85);
+  --menu-speed:0.75s;
+}
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+@media (max-width: 400px){
 body{
-    display: flex;
-    background: wheat;
-    text-align: center;
-    flex-direction: column;
-    margin: 3%;
-    font-family: 'Raleway', sans-serif;
-    
-}
-.skills{
-    display: flex;
-    justify-content:center;
-    font-family: 'Raleway', sans-serif;
-    flex-direction: column;
-}
-  /* our footer */
+  background-image: linear-gradient(180deg, #D2D5E7 0%, rgba(255, 255, 255, 0) 48.23%, #D2D5E7 100%);
+  background-repeat: no-repeat;
 
+}
+/* Intro */
+.intro{
+  font-family: "Dancing Script";
+  display: flex;
+  flex-direction: row;
+  padding:5%;
+  
+}
+.intro h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:10%;
+  padding-left: 25%;
+}
+.intro img{
+  padding-top:5%;
+}
+/* Interaction */
+.interaction{
+  font-family: Raleway;
+font-style: normal;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.interaction img{
+  padding:5%;
+}
+.interaction h4{
+  line-height: 2.5;
+  font-size:  smaller;
+}
+/* Visual */
+.visual{
+  font-family: Raleway;
+font-style: normal;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-top:10%;
+}
+.visual img{
+  padding:5%;
+}
+.visual h4{
+  line-height: 2.5;
+  font-size:  smaller;
+}
+
+/* Software */
+.software{
+  font-family: Raleway;
+font-style: normal;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-top:10%;
+}
+.software img{
+  padding:5%;
+}
+.software h4{
+  line-height: 2.5;
+  font-size:  smaller;
+}
+
+/* Languages */
+.languages{
+  font-family: Raleway;
+font-style: normal;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-top:10%;
+}
+.languages img{
+  padding:5%;
+}
+.languages h4{
+  line-height: 2.5;
+  font-size:  smaller;
+}
+.aligner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+}
+/* Footer */
 footer {
 text-align: center;
 display: flex;
@@ -134,40 +230,103 @@ justify-content: space-around;
   color: #ffffff;
 }
 
-/* our footer */
-hr{
-    margin: 3%;
 
-}
-h3{
-    padding: 10px;
-}
-.text{
-    text-align: justify;
-    box-sizing: content-box;
-    margin: 0 20% 0 20%;
-}
-.team-work{
+
+@media (min-width: 700px){
+   body{
+     background: linear-gradient(180deg, rgba(0, 119, 171, 0.33) 0%, rgba(255, 255, 255, 0) 53.44%, rgba(0, 119, 171, 0.33) 99.99%, #0077AB 100%);
+   }
+   /* Intro */
+   
+   .intro{
+    font-family: "Dancing Script";
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.certification{
-    display: flex;
-    justify-content: center;
-}
-
-
-@media (min-width: 400px){
-    .middle{
-        display: flex;
-        justify-content: space-around;
-    }
-    footer{
-    position:absolute;
-   bottom:0;
-   width:100%;
-    }
+    flex-direction: row-reverse;
+    padding-bottom: 5%;
     
+    
+  }
+  .intro h1{
+    display: flex;
+    padding-top:5%;
+    padding-right:40%;
+    padding-left: 30%;
+    font-size: 3.5em; 
+  }
+  .intro img{ 
+    height:10em;
+    width: 9em;
+    padding-top: 3%; 
+  }
+     
+     
+   
+/* Sides */
+.sides{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-family: Raleway;
+font-style: normal;
+}
+.sides2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Raleway;
+  font-style: normal;
+  margin-right:2.1% ;
+  }
+/* Interaction */
+.interaction img{
+  height: 70%;
+  width: 70%;
+  padding-left:15%;
+}
+.aligner{
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+.interaction h2{
+  padding:10%;
+  font-size: 1.8em;
+}
+h4{
+  line-height: 2em;
+}
+
+/* Visual */
+.visual img{
+  height: 70%;
+  width: 70%;
+  padding-left:15%;
+}
+.visual h2{
+  padding:10%;
+  font-size: 1.8em;
+}
+
+/* Languages */
+.languages img{
+  height: 70%;
+  width: 70%;
+  padding-left:15%;
+}
+.languages h2{
+  padding:10%;
+  font-size: 1.8em;
+}
+/* Software */
+
+.software img{
+  height: 70%;
+  width: 70%;
+  padding-left:15%;
+}
+.software h2{
+  padding:10%;
+  font-size: 1.8em;
+}
+
 }

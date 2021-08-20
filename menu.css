@@ -1,3 +1,5 @@
+
+
 .menu-wrap {
     position: fixed;
     top: 0;
@@ -36,7 +38,7 @@
     flex: none;
     width: 100%;
     height: 2px;
-    background: #fff;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,5 +139,6 @@
     color: inherit;
     text-decoration: none;
     transition: color 0.4s ease;
+    font-family: "Raleway";
   }
   

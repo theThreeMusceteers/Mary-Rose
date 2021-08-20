@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>repl.it</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  
-  <link href="/menu.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="/menu.css">
 </head>
 
 <body>
@@ -22,17 +21,16 @@
     <div>
       <div>
         <ul>
-          
-          <li><a href="#">Case Study1</a></li>
+          <li><a href="/about-me.html">About Me</a></li>
+          <li><a href="/case-study.html">Case Study1</a></li>
           <li><a href="#">Case Study2</a></li>
           <li><a href="#">Case Study3</a></li>
+          
         </ul>
       </div>
     </div>
   </div>
 </div>
-
-
   
   
 <!-- First Page -->
@@ -49,7 +47,7 @@
 
 
 </div>
-
+<div class="phone">
   <!-- case study 1 -->
  <div class="case-study1">
 
@@ -75,7 +73,51 @@
       <img src="images/case study 3.png" alt="case-study" width="90%" height="90%">
       <p>AppSchool is an online platform for practical technology courses in a variety of fields. Through their new app, users get free course coupons, increasing engagement and user activity.</p>
     </div>
+  </div>
 
+
+
+
+  <div class="desktop">
+    <!-- case study 1 -->
+ <div class="case-study1">
+<div class="side">
+  <h2>Digital Library in Your Hand</h2>
+  <p>An app for a sharing world! Digitize your personal book library,<br> loan and lend to other app users, keep track of wandering<br> books and share the love of reading.</p>
+  <button class="btn animation"><a href="/case-study.html">Take Me There</a></button>
+</div>
+  <img src="/images/case study 1.png" alt="phone" width="30%" height="30%">
+  
+ 
+   </div>
+  
+
+
+
+  
+   <!-- case study 2 -->
+   <div class="case-study-two">
+    <div class="side">
+        <h2>Recycling Made Easy</h2>
+       
+        <p>Brand new app for Israel's leading recycling company.<br> Private and corporate customers can make service calls<br> and report faults easily and quickly. The app also contains<br> informative articles and tips on recycling.</p>
+        <button class="btn animation">View Project</button>
+    </div>
+    <img src="/images/case-study 2.png" alt="case-study" width="30%" height="30%">
+      </div>
+      
+      <!-- case study 3 -->
+      <div class="case-study-three">
+        <div class="side">
+        <h2>Learn Through Creation </h2>
+        
+        <p>AppSchool is an online platform for practical technology<br> courses in a variety of fields. Through their new app, <br>users get free course coupons, increasing engagement and<br> user activity.</p>
+        <button class="btn animation">Learn More</button>
+        </div>
+        <img src="images/case study 3.png" alt="case-study" width="30%" height="30%">
+      </div>
+    </div>
+  </div>
 </body>
 
 
@@ -84,30 +126,37 @@
 <footer class="wrapper">
   <div class="icon facebook">
     <div class="tooltip">Facebook</div>
-    <span><img src="/logos/facebook.jpeg" height=35em width=35em></span>
+    <a href="https://www.facebook.com/"><img src="/logos/facebook.jpeg" height=35em width=35em></a>
   </div>
   <div class="icon twitter">
     <div class="tooltip">Twitter</div>
-    <span><img src="/logos/black-and-white-twitter-logo-transparent_100736.png" height=35em width=35em></span>
+    <a href="https://twitter.com/"><img src="/logos/black-and-white-twitter-logo-transparent_100736.png" height=35em width=35em></a>
   </div>
   <div class="icon instagram">
     <div class="tooltip">Instagram</div>
     
-    <span><img src="/logos/instagram-logo-black-transparent.png" height=35em width=40em></span>
+    <a href="https://www.instagram.com/"><img src="/logos/instagram-logo-black-transparent.png" height=35em width=40em></a>
   </div>
   <div class="icon github">
     <div class="tooltip">Github</div>
-    
-    <span><img src="logos/github.png" height=34em width=34em></span>
+    <a href="https://github.com"><img src="logos/github.png" height=34em width=34em></a>
   </div>
   <div class="icon youtube">
     <div class="tooltip">Mail</div>
-   
-    <span><img src="/logos/gmail-logo.png" height=34em width=34em></span>
+    <a href="https://www.youtube.com"><img src="/logos/gmail-logo.png" height=34em width=34em></a>
   </div>
 </footer>
 
 
-
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
 
 </html>
