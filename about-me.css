@@ -19,7 +19,7 @@
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
 }
-@media (max-width: 400px){
+@media (max-width: 900px){
 body{
   background-color: #F4F0FB;
   background-repeat: no-repeat;
@@ -119,6 +119,11 @@ padding-top:10%;
   flex-direction: column;
   align-items: center;
 }
+/* .spacing h4{
+  align-items: center;
+  justify-content: center;
+
+} */
 }
 /* Footer */
 footer {
@@ -233,7 +238,7 @@ justify-content: space-around;
 
 
 
-@media (min-width: 700px){
+@media (min-width: 900px){
    body{
      background-color:#F4F0FB;
   

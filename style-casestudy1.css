@@ -20,7 +20,7 @@
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
 }
-@media (max-width: 400px) {
+@media (max-width: 900px) {
   .library-screen {
     justify-content: center;
     text-align: center;
@@ -250,7 +250,7 @@ footer {
   --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 900px) {
   .intro-side {
     display: flex;
     flex-direction: row-reverse;

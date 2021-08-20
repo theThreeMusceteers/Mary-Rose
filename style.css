@@ -18,7 +18,7 @@
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
 }
-@media (max-width: 400px){
+@media (max-width: 900px){
   .desktop{
     display: none;
   }
@@ -216,7 +216,7 @@ footer {
   color: #ffffff;
 }
 /* Footer end  */
-@media (min-width: 400px) {
+@media (min-width: 900px) {
   .phone{
     display:none;
   }
