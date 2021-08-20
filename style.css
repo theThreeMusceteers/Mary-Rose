@@ -18,7 +18,10 @@
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 048767a6cf3e92023b764f98615b99de7a4324c1
 @media (max-width: 400px){
   .desktop{
     display: none;
@@ -47,7 +50,10 @@ body img {
 }
 .logo {
   margin-top: -1;
+<<<<<<< HEAD
   display:none;
+=======
+>>>>>>> 048767a6cf3e92023b764f98615b99de7a4324c1
 }
 /* End of first page */
 /* Case Study 1 */
@@ -253,8 +259,47 @@ footer {
   width: 40%;
   padding-left: 13%;
   display: none;
+<<<<<<< HEAD
+=======
 }
 
+/* Case Study 1 */
+.case-study1{
+  background-color:#f3f3f3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top:5%;
+}
+.side{
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway";
+  justify-content: center;
+  align-items: center;
+}
+.side h2{
+  padding-bottom: 10px;
+>>>>>>> 048767a6cf3e92023b764f98615b99de7a4324c1
+}
+.side p{
+ line-height: 30px;
+ padding-bottom:5%;
+}
+/* .side button{
+  height:10%;
+  width: 30%;
+  border-radius: 10%;
+  background-color: hsla(0, 100%, 90%, 0.3);
+  color:red;
+  
+}
+.side a{
+  text-decoration: none;
+  color:red;
+} */
+
+<<<<<<< HEAD
 /* Case Study 1 */
 .case-study1{
   background-color:#f3f3f3;
@@ -290,6 +335,8 @@ footer {
   color:red;
 } */
 
+=======
+>>>>>>> 048767a6cf3e92023b764f98615b99de7a4324c1
 .case-study-two{
   background-color:#f2faed;
   display: flex;
@@ -373,4 +420,8 @@ footer {
 a{
   text-decoration: none;
 }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 048767a6cf3e92023b764f98615b99de7a4324c1
