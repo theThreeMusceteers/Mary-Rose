@@ -41,7 +41,7 @@ body {
   margin: 5%;
 }
 body img {
-  padding: 5%;
+  padding: 2%;
 }
 
 .nav {
@@ -126,6 +126,7 @@ body img {
 .about h2 {
   padding-top: 5%;
   padding-bottom: 5%;
+
 }
 .about p {
   text-align: justify;
@@ -256,7 +257,7 @@ footer {
     justify-content: left;
     text-align: left;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
   }
   .library-screen p {
     text-align: justify;
@@ -267,8 +268,8 @@ footer {
 
   }
   .library-screen-one p{
-    margin-top: 30%;
-    margin-left: 10%;
+    margin-top: 20%;
+    margin-left: 7%;
     margin-right: 20%;
 
   }
@@ -277,13 +278,31 @@ footer {
     flex-direction: row;
   }
   .library-screen-two p{
-    margin-top: 30%;
-    margin-left: 10%;
+    margin-top: 20%;
+    margin-left: 7%;
     margin-right: 20%;
   }
   .library-screen h2{
-    margin-left: 15%;
+    margin-left: 5%;
+    font-size: 24px;
+    margin-top: 5%;
+    
   }
+  .about h2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 40px;
+  
+  }
+  .about p {
+    text-align: justify;
+    font-size: 20px;
+  }
+  .library-screen p {
+    text-align: justify;
+    font-size: 20px;
+  }
+  
 }
 
 
