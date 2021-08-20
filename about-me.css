@@ -21,7 +21,7 @@
 }
 @media (max-width: 400px){
 body{
-  background-image: linear-gradient(180deg, #D2D5E7 0%, rgba(255, 255, 255, 0) 48.23%, #D2D5E7 100%);
+  background-color: #F4F0FB;
   background-repeat: no-repeat;
 
 }
@@ -38,10 +38,11 @@ body{
   justify-content: center;
   align-items: center;
   padding-top:10%;
-  padding-left: 25%;
+  padding-left: 33%;
 }
 .intro img{
   padding-top:5%;
+  display: none;
 }
 /* Interaction */
 .interaction{
@@ -234,7 +235,9 @@ justify-content: space-around;
 
 @media (min-width: 700px){
    body{
-     background: linear-gradient(180deg, rgba(0, 119, 171, 0.33) 0%, rgba(255, 255, 255, 0) 53.44%, rgba(0, 119, 171, 0.33) 99.99%, #0077AB 100%);
+     background-color:#F4F0FB;
+  
+      
    }
    /* Intro */
    
@@ -249,7 +252,7 @@ justify-content: space-around;
   .intro h1{
     display: flex;
     padding-top:5%;
-    padding-right:40%;
+    padding-right:45%;
     padding-left: 30%;
     font-size: 3.5em; 
   }
@@ -257,6 +260,7 @@ justify-content: space-around;
     height:10em;
     width: 9em;
     padding-top: 3%; 
+    display: none;
   }
      
      
