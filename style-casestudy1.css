@@ -268,21 +268,46 @@ footer {
   }
   .about p {
     text-align: justify;
-    font-size: 17px;
+    font-size: 19px;
   }
-  .library-screen p {
+  .aligner p {
     text-align: justify;
-    font-size: 17px;
+    font-size: 19px;
   }
+  ]
   .library-screen img{
     height: 17%;
     width: 17%;
 
   }
+
   .mobile{
     display:none;
   }
-
+.library-screen{
+  display: flex;
+  flex-direction: row;
+  
+}
+.library-screen img{
+  height: 22%;
+  width: 22%;
+}
+.aligner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left:20%;
+}
+.aligner h2{
+  padding-bottom:10px;
+  font-size: 25px;
+  
+}
+.aligner {
+  line-height: 30px;
+}
 
   
 }
