@@ -38,10 +38,11 @@ body{
   justify-content: center;
   align-items: center;
   padding-top:10%;
-  padding-left: 25%;
+  padding-left: 33%;
 }
 .intro img{
   padding-top:5%;
+  display: none;
 }
 /* Interaction */
 .interaction{
@@ -249,7 +250,7 @@ justify-content: space-around;
   .intro h1{
     display: flex;
     padding-top:5%;
-    padding-right:40%;
+    padding-right:45%;
     padding-left: 30%;
     font-size: 3.5em; 
   }
@@ -257,6 +258,7 @@ justify-content: space-around;
     height:10em;
     width: 9em;
     padding-top: 3%; 
+    display: none;
   }
      
      
